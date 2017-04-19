@@ -4,7 +4,7 @@ module Bowerify
 
     config.before_initialize do |app|
       app.config.bower_components_path = [
-        Rails.root.join('lib', 'assets', 'components'),
+        #Rails.root.join('lib', 'assets', 'components'),
         Rails.root.join('vendor', 'assets', 'components')
       ]
 
